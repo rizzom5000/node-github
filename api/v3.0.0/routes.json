@@ -2159,6 +2159,13 @@
                 "$user": null,
                 "$repo": null,
                 "$collabuser": null
+            },
+            "permission": {
+               "type": "String",
+               "required": false,
+               "validation": "^(pull|push|admin)$",
+               "invalidmsg": "pull, push, admin, default: pull",
+               "description": ""
             }
         },
 
